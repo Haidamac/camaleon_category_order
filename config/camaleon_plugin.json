@@ -1,0 +1,14 @@
+{
+  "title": "Camaleon Category Order",
+  "descr": "",
+  "key": "camaleon_category_order", // must be the name of the folder of your plugin, sample: app/views/plugins/<my_plugin> ==> 'my_plugin'
+  "helpers": [
+    "Plugins::CamaleonCategoryOrder::MainHelper"
+  ],
+  "hooks": {
+    "on_active": ["camaleon_category_order_on_active"],
+    "on_inactive": ["camaleon_category_order_on_inactive"],
+    "list_category": ["camaleon_category_order_on_list_category"]
+    //here you can add all your hooks (read documentation)
+  }
+}
