@@ -16,7 +16,7 @@ Gem::Specification.new do |s|
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
 
-  s.add_dependency 'camaleon_cms' , '>=2.4.5'
+  s.add_dependency 'camaleon_cms' , '>=2.8'
 
   s.add_development_dependency "sqlite3"
 end
